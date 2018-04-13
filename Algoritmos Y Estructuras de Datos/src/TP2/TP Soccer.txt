@@ -1,0 +1,9 @@
+IMPORTANTE: Ejecutar y leer lo que dice el main, tener en cuenta los comentarios del código donde se trata de explicar lo que realizamos.
+Tratamos de limitar lo mas posible el uso de backtracking (despues de todo, backtracking sin estrategia es casi lo mismo que fuerza bruta).
+Esto lo logramos realizando deducciones lógicas con los datos proporcionados al principio, y una vez no queda otra opcion, recién se prueba un valor y se realizan deducciones de nuevo para ver si los datos nuevos encajan o no.
+De la misma forma, uno no empieza a resolver sudokus probando valores, sino que resuelve lo más que puede mediante las pistas dadas (y las pistas nuevas obtenidas a partir de éstas, por esto usamos recursión en la lógica),
+y una vez no queda otra opción, prueba un valor y vuelve a realizar la lógica desde allí.
+El primer ejercicio (6 equipos, 10 partidos) lo resolvemos SIN BACKTRACKING (Sólo lógica). 0 casos
+El segundo ejercicio (10 equipos, 18 partidos) lo resolvemos en 4 "caminos" de backtracking, sin embargo, es posible resolverlo con sólo 1 (lo intentamos resolver manualmente).
+
+Escrito por Escalada Juan, Stefanini Ignacio

@@ -1,0 +1,18 @@
+Integrantes TP: Escalada, Juan Jesus; Stefanini, Ignacio
+
+Teoria sobre los distintos algoritmos a desarrollar
+
+El funcionamiento del algoritmo de selección es el siguiente:
+Busca el mínimo elemento de la lista, lo intercambia con el primero, buscar el siguiente mínimo en el resto de la lista y lo intercambia con el siguiente de la lista sin ordenar.
+De forma general:
+Busca el mínimo elemento entre una posición i y el final de la lista
+Intercambia el mínimo con el elemento de la posición i
+
+El funcionamiento del algoritmo de inserción es el siguiente:
+Evalúa si el elemento en la posición i del arreglo, es mas chico que el elemento en la posición i-1, y los cambia de lugar.
+Este proceso se repite hasta que el elemento que estaba en la posicion i, sea mayor que el elemento que se encuentra en la posición i-1 ó,
+sea el primer elemento; de esta manera se va armando el arreglo ordenado hasta la posición i.
+
+El funcionamiento del algoritmo de la burbuja es el siguiente:
+La Ordenación de burbuja funciona revisando cada elemento de la lista que va a ser ordenada con el siguiente, intercambiándolos de posición si están en el orden equivocado.
+Es necesario revisar varias veces toda la lista hasta que no se necesiten más intercambios, lo cual significa que la lista está ordenada.
